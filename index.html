@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youshouldeat - Musician Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>youshouldeat</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to the official website of youshouldeat. Explore my music, learn more about my journey, and stay updated with my latest news.</p>
+        </section>
+        <section id="music">
+            <h2>My Music</h2>
+            <div id="cassette-player">
+                <p>Interactive cassette player will go here.</p>
+            </div>
+        </section>
+        <section id="social-media">
+            <h2>Live Feed</h2>
+            <!-- Instagram Feed -->
+            <div class="snapwidget-widget" id="live-feed">
+                <iframe src="https://snapwidget.com/embed/1074637" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:765px; height:510px" title="Posts from Instagram"></iframe>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 youshouldeat. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
